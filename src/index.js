@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Layout from './dashboard';
+import Diploma from './diploma';
+import Signup from './signup';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,9 +18,19 @@ const router = createBrowserRouter([
     element: <App/>
   },
 
+   {
+    path: "diploma",
+    element: <Diploma/>
+  },
+
   {
     path: "dashboard",
     element: <Layout/>
+  },
+
+  {
+    path: "signup",
+    element: <Signup/>
   },
 
 

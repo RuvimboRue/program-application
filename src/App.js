@@ -24,7 +24,7 @@ export default function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="/signup" className="flex items-center">
           Create Account
         </a>
       </Typography>
